@@ -13,7 +13,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 온난화는 홍수의 **출발점**(피크 물이 어느 지류에서 왔나)과 **터지는 지점**(어디서 먼저 둑을 넘나)을 함께 옮긴다.
 CaMa-Flood v4.3 × CESM2-LE 10멤버, 하천망을 network-flow 그래프로 읽는다(그래프 이론이 핵심, XAI는 나중 "원인" 단계).
 P0 파일럿(미시시피) 결과: **홍수 크기는 그대로(+0%)인데 피크 물의 8%가 눈 지류(상류 미시시피·미주리)에서 비 지류(오하이오)로 출발점을 옮겼다.** 눈 지류 분담 >40%인 해: 과거 5년에 1번 → 미래 100년에 1번.
-계획서 원본: `flood_source_bottleneck_plan_v2.docx`(P0–P4); 요약 발표: `overleaf_ppt/main.tex`(XeLaTeX·kotex, 그림은 `figures/fig_*.tex` TikZ → `figures/build/*.pdf|png`; 이 서버에는 latex 바이너리가 PATH에 없다).
+계획서 원본: `flood_source_bottleneck_plan_v2.docx`(P0–P4); 요약 발표: `overleaf_ppt/main.tex`(beamer 16:9, XeLaTeX, 한글은 fontspec+Noto Sans CJK KR; kotex는 tectonic ICU 오류로 쓰지 않음). TikZ 원본 `overleaf_ppt/figures/src/fig_*.tex`(+`_preamble.tex`) → `figures/fig_*.pdf`; 로컬 컴파일은 `~/.local/bin/tectonic`(0.17), 그림은 `~/.claude/skills/latex-figure/scripts/tikz_compile.py --preamble "$(cat figures/src/_preamble.tex)"`. Overleaf git 토큰은 `~/.git-credentials`에 저장(묻지 않음); 푸시 = `git add -A && git commit && git pull --rebase origin main && git push origin main`.
 
 ## 실행 환경
 ```
