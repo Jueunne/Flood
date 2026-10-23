@@ -4,4 +4,5 @@ __pycache__/
 *.pyc
 overleaf_ppt/figures/_p.tmp
 .claude/settings.local.json
-overleaf_ppt/   # own git repo (Overleaf sync), committed separately
+# overleaf_ppt has its own git repo (Overleaf sync), committed separately
+overleaf_ppt/
