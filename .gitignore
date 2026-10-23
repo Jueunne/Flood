@@ -1,8 +1,10 @@
-# regenerable per-member-year caches (600 npz, ~30 MB) — rerun run_pilot.sh
-cc_output/result/*/pilot/
+*.nc
+*.grib*
+*.npy
+*.npz
+*.pkl
 __pycache__/
-*.pyc
-overleaf_ppt/figures/_p.tmp
-.claude/settings.local.json
-# overleaf_ppt has its own git repo (Overleaf sync), committed separately
+.ipynb_checkpoints/
+*.log
 overleaf_ppt/
+nohup.out
