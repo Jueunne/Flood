@@ -1,0 +1,17 @@
+cell lat 39.875 lon -104.875: INPX0=76 INPY0=51 (containing 1deg: x=76, y=51); INPA sum=8.2226e+08 ctmare=8.2206e+08
+global: sum INPA / sum ctmare over land = 1.00025
+
+=== subbasin_gauge: 962 cells, 0.513 Mkm2, 1 outlet cells ===
+mean Rin 1654  mean Qout 1720  peak Qout 4656 (day 192) m3/s
+daily mean|res|/scale = 0.0369   bias = -0.0369
+annual residual = -1.928e+09 m3 (-3.69% of inflow)
+
+=== basin6_65: 5506 cells, 3.210 Mkm2, 2 outlet cells ===
+mean Rin 20283  mean Qout 16358  peak Qout 21376 (day 120) m3/s
+daily mean|res|/scale = 0.2080   bias = +0.2080
+annual residual = 1.334e+11 m3 (+20.80% of inflow)
+
+=== basin6: 5118 cells, 2.955 Mkm2, 1 outlet cells ===
+mean Rin 18006  mean Qout 9519  peak Qout 10272 (day 117) m3/s
+daily mean|res|/scale = 0.4739   bias = +0.4739
+annual residual = 2.698e+11 m3 (+47.39% of inflow)

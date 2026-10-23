@@ -1,0 +1,3 @@
+gauge lat=32.125 lon=-91.125 uparea=2.942 Mkm2 (99.6% of basin 6), cells=5094, bifurcation crossings=3
+mean Rin 18256 mean Qout 18208 peak Qout 26477 m3/s (day 111); daily mean|res|/scale=3.03e-04; annual resid=+0.0303%
+saved fig

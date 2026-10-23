@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/juen0828/RS12_Flood_origin/.claude/hooks/research_log_commit.sh",
+            "timeout": 30,
+            "statusMessage": "research_log.md 확인·git commit"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+nextx negative codes: [-9999   -10    -9]
+outlet: lat=29.125 lon=-89.375 uparea=2.955 Mkm2 basinID=6
+basin.bin mask: 5118 cells, ctmare sum=2.955 Mkm2
+nextxy-traced mask: 5118 cells; equal to basin.bin mask: True; traced&!basin=0, basin&!traced=0
+bbox rows 161:244 cols 265:408  lat 49.62..29.12 lon -113.62..-78.12
+days in output: 366; storge stamps 1952-01-02..1953-01-01
+days in runoff: 366
+
+=== daily closure (lag 0) ===
+mean|res| / mean(Rin*86400) = 0.4746
+mean res (bias) / mean Rin = +0.4746
+lag -1: mean|res|/scale = 0.5694
+lag +1: mean|res|/scale = 0.5662
+
+=== annual budget (m3) ===
+sum Rin*86400 = 5.7016e+11
+sum Qout*86400= 3.0102e+11
+S_end - S_0   = -1.4660e+09
+residual      = 2.7060e+11  (+47.46% of annual inflow)
+peak Qout 10272 m3/s on day 117; mean Qout 9519 m3/s
+saved /home/juen08282/RS12_Flood_origin/cc_output/result/2026.10.23/mass_closure_LE2-1031.002_1952.png

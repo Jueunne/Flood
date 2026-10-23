@@ -1,0 +1,50 @@
+basins connected to 6 by bifurcation: [6, 16, 17, 65, 106, 134, 135, 142, 214, 298, 707, 904, 1196, 1527, 1673, 2922, 3805, 4437, 5420, 5499, 5552, 6807, 7930, 8792, 9858, 10993, 11022, 11571, 11869, 14896, 15424]
+union: 11582 cells, 6.211 Mkm2, 28 river-mouth cells
+  basin 6: 5118 cells, 2.9550 Mkm2, mouths=1
+  basin 16: 2760 cells, 1.3050 Mkm2, mouths=1
+  basin 17: 1949 cells, 1.0568 Mkm2, mouths=1
+  basin 65: 388 cells, 0.2545 Mkm2, mouths=1
+  basin 106: 274 cells, 0.1328 Mkm2, mouths=1
+  basin 134: 217 cells, 0.1079 Mkm2, mouths=1
+  basin 135: 238 cells, 0.1070 Mkm2, mouths=1
+  basin 142: 218 cells, 0.0981 Mkm2, mouths=1
+  basin 214: 145 cells, 0.0678 Mkm2, mouths=1
+  basin 298: 108 cells, 0.0505 Mkm2, mouths=1
+  basin 707: 44 cells, 0.0189 Mkm2, mouths=1
+  basin 904: 33 cells, 0.0144 Mkm2, mouths=1
+  basin 1196: 21 cells, 0.0105 Mkm2, mouths=0
+  basin 1527: 16 cells, 0.0077 Mkm2, mouths=0
+  basin 1673: 13 cells, 0.0068 Mkm2, mouths=1
+  basin 2922: 7 cells, 0.0034 Mkm2, mouths=1
+  basin 3805: 6 cells, 0.0024 Mkm2, mouths=0
+  basin 4437: 3 cells, 0.0019 Mkm2, mouths=1
+  basin 5420: 5 cells, 0.0014 Mkm2, mouths=1
+  basin 5499: 3 cells, 0.0014 Mkm2, mouths=1
+  basin 5552: 2 cells, 0.0014 Mkm2, mouths=1
+  basin 6807: 3 cells, 0.0010 Mkm2, mouths=1
+  basin 7930: 3 cells, 0.0008 Mkm2, mouths=1
+  basin 8792: 1 cells, 0.0007 Mkm2, mouths=1
+  basin 9858: 1 cells, 0.0006 Mkm2, mouths=1
+  basin 10993: 1 cells, 0.0005 Mkm2, mouths=1
+  basin 11022: 1 cells, 0.0005 Mkm2, mouths=1
+  basin 11571: 1 cells, 0.0004 Mkm2, mouths=1
+  basin 11869: 1 cells, 0.0004 Mkm2, mouths=1
+  basin 14896: 1 cells, 0.0002 Mkm2, mouths=1
+  basin 15424: 1 cells, 0.0002 Mkm2, mouths=1
+northernmost cross-basin bifurcation touching basin 6 at lat 45.625
+gauge cell: lat=46.125 lon=-100.625 uparea=0.513 Mkm2
+sub-basin: 962 cells, 0.513 Mkm2; bifurcation paths crossing its boundary: 0
+
+=== union_allmouths ===
+mean Rin 35186  mean Qout 38179  peak Qout 53822 (day 115) m3/s
+daily mean|res|/scale = 0.1498   bias = -0.1491
+  lag -1: mean|res|/scale = 0.4025
+  lag +1: mean|res|/scale = 0.4026
+annual residual = -1.659e+11 m3 (-14.91% of inflow)
+
+=== subbasin_gauge ===
+mean Rin 1644  mean Qout 1720  peak Qout 4656 (day 192) m3/s
+daily mean|res|/scale = 0.0458   bias = -0.0430
+  lag -1: mean|res|/scale = 0.5734
+  lag +1: mean|res|/scale = 0.5757
+annual residual = -2.233e+09 m3 (-4.30% of inflow)

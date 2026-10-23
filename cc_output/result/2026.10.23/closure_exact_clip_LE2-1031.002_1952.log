@@ -1,0 +1,16 @@
+NEGATIVE RUNOFF CLIPPED TO 0
+
+=== subbasin_gauge: 962 cells, 0.513 Mkm2, 1 outlet cells ===
+mean Rin 1715  mean Qout 1720  peak Qout 4656 (day 192) m3/s
+daily mean|res|/scale = 0.0000   bias = -0.0000
+annual residual = -3.576e+03 m3 (-0.00% of inflow)
+
+=== basin6_65: 5506 cells, 3.210 Mkm2, 2 outlet cells ===
+mean Rin 20767  mean Qout 16358  peak Qout 21376 (day 120) m3/s
+daily mean|res|/scale = 0.2264   bias = +0.2264
+annual residual = 1.487e+11 m3 (+22.64% of inflow)
+
+=== basin6: 5118 cells, 2.955 Mkm2, 1 outlet cells ===
+mean Rin 18460  mean Qout 9519  peak Qout 10272 (day 117) m3/s
+daily mean|res|/scale = 0.4868   bias = +0.4868
+annual residual = 2.842e+11 m3 (+48.68% of inflow)

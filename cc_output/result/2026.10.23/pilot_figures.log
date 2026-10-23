@@ -1,0 +1,20 @@
+loaded past 300 / future 300 member-years; main-stem cells 185; river cells (>= 10000 km2) 1129
+fixed-tau closure sumC/Vwin: past 1.033+-0.095, future 1.039+-0.174
+SOURCE centroid past (39.31N,89.91W) -> future (38.59N,88.92W): shift 117 km (member spread past lat sd 0.06, lon sd 0.17)
+tributary shares (% of peak-window water), past -> future:
+  trib@(36.9N,89.1W) 0.53Mkm2                 47.6% ->  54.2%  (member sd 1.0/2.5)
+  trib@(38.9N,90.1W) 0.44Mkm2                 14.4% ->  10.0%  (member sd 0.8/0.6)
+  trib@(33.9N,91.1W) 0.41Mkm2                  7.6% ->   7.4%  (member sd 0.5/0.7)
+  trib@(41.1N,95.9W) 0.22Mkm2                  3.2% ->   1.9%  (member sd 0.1/0.2)
+  trib@(47.9N,103.9W) 0.18Mkm2                 2.8% ->   2.3%  (member sd 0.3/0.2)
+  trib@(39.1N,94.6W) 0.15Mkm2                  1.0% ->   1.0%  (member sd 0.1/0.1)
+  main stem + direct                           2.5% ->   2.4%
+BOTTLENECK (earliest crossing among river cells) years with a crossing: past 300/300, future 300/300
+BOTTLENECK centroid past (41.56N,98.93W) -> future (42.09N,100.24W): shift 123 km
+  top past: (35.62N,104.38W) 1.5% up=16k km2; (38.38N,105.12W) 1.4% up=10k km2; (40.12N,101.88W) 1.1% up=12k km2; (36.88N,99.38W) 1.1% up=27k km2; (45.88N,110.12W) 1.0% up=13k km2
+  top future: (35.88N,104.38W) 1.4% up=11k km2; (46.38N,108.62W) 1.1% up=10k km2; (46.38N,108.38W) 0.9% up=11k km2; (39.62N,104.88W) 0.9% up=11k km2; (38.38N,105.12W) 0.9% up=10k km2
+GAUGE annual-max Q: past 36670 -> future 36680 m3/s (+0.0%); peak day-of-year past 128 -> future 125
+saved /home/juen08282/RS12_Flood_origin/cc_output/result/2026.10.23/pilot_figA_source_map.png
+saved /home/juen08282/RS12_Flood_origin/cc_output/result/2026.10.23/pilot_figB_bottleneck_map.png
+saved /home/juen08282/RS12_Flood_origin/cc_output/result/2026.10.23/pilot_figB2_exceed_any_map.png
+saved figC

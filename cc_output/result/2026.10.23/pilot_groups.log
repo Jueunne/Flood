@@ -1,0 +1,22 @@
+stem confluence cells: [('33.88N', '91.12W', 8), ('36.88N', '89.12W', 22), ('38.88N', '90.12W', 33)]
+group                  past%  future%   diff  member-sd  (n members agreeing on sign)
+Ohio                    47.6     54.2   +6.6  1.0/2.5  (10/10)
+Upper Mississippi       14.4     10.0   -4.4  0.8/0.6  (10/10)
+Missouri                18.2     14.6   -3.6  0.7/0.9  (10/10)
+Arkansas                 7.6      7.4   -0.2  0.5/0.7  (5/10)
+other_lower_stem        12.2     13.8   +1.6  0.4/1.0  (10/10)
+cells per group: {'Arkansas': 672, 'Missouri': 2409, 'Ohio': 874, 'Upper Mississippi': 794, 'other_lower_stem': 345}
+
+bottleneck share by group (earliest-crossing frequency summed over cells), rivers >=100k km2:
+  Ohio                 past   5.6%  future   1.6%
+  Upper Mississippi    past  28.9%  future  36.4%
+  Missouri             past  51.1%  future  46.3%
+  Arkansas             past  11.7%  future  12.3%
+  other_lower_stem     past   2.7%  future   3.4%
+
+bottleneck share by group (earliest-crossing frequency summed over cells), rivers >=10k km2:
+  Ohio                 past  10.4%  future   6.2%
+  Upper Mississippi    past  14.4%  future  16.1%
+  Missouri             past  52.5%  future  59.1%
+  Arkansas             past  21.7%  future  17.9%
+  other_lower_stem     past   1.0%  future   0.8%

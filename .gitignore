@@ -1,0 +1,6 @@
+# regenerable per-member-year caches (600 npz, ~30 MB) — rerun run_pilot.sh
+cc_output/result/*/pilot/
+__pycache__/
+*.pyc
+overleaf_ppt/figures/_p.tmp
+.claude/settings.local.json
