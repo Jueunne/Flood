@@ -16,3 +16,4 @@
 - 왜: 사용자 지시 — "research_log.md를 만들어 KST 기준으로 모든 작업 기록 + git commit, 메모리에 기록하고 hook으로 상시화".
 - 결과: `.claude/settings.json` Stop hook → 작업 파일이 바뀌었는데 로그가 없으면 종료 차단, 로그가 있으면 자동 커밋. 메모리 `feedback_research_log_git_commit.md` 저장.
 - 다음: 병목 정의 안정화·τ 민감도(계산), 헤드라인 지표·두 번째 유역·원인 변수 다운로드(사용자 결정).
+- Stop hook 파이프 테스트: 로그 미기록 시 block JSON 확인, stop_hook_active=true 시 통과 확인. overleaf_ppt/는 자체 git(Overleaf 동기화)이라 외부 repo에서 제외.

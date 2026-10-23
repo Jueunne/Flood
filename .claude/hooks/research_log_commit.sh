@@ -20,7 +20,7 @@ fi
 SUBJ=$(grep -E '^### ' "$LOG" | tail -1 | sed 's/^### //')
 [ -z "$SUBJ" ] && SUBJ="research_log update $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST')"
 git add -A >/dev/null 2>&1
-git -c user.name="$(git config user.name || echo juen0828)" commit -q -m "$SUBJ" -m "Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>" >/dev/null 2>&1
+git -c user.name="$(git config user.name || echo juen0828)" commit -q -m "$SUBJ" -m "Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>" -m "Claude-Session: https://claude.ai/code/session_01FS1U2uKErmWvsLY4nswBAN" >/dev/null 2>&1
 H=$(git rev-parse --short HEAD)
 jq -n --arg m "git commit $H: $SUBJ" '{systemMessage:$m}'
 exit 0
